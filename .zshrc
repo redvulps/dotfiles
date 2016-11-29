@@ -94,6 +94,8 @@ alias ev='vim ~/.vimrc'
 alias et='vim ~/.tmux.conf'
 alias ez='vim ~/.zshrc'
 
-export PATH="$HOME/.rbenv/bin:$HOME/.local/bin:$PATH"
+export JAVA_HOME="$HOME/Apps/android-studio/jre"
+export ANDROID_HOME="$HOME/Android/Sdk"
+export PATH="$HOME/.rbenv/bin:$HOME/.local/bin:$JAVA_HOME/bin:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$PATH"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
