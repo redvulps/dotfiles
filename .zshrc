@@ -93,6 +93,14 @@ alias tkill='tmux kill-session -t'
 alias ev='vim ~/.vimrc'
 alias et='vim ~/.tmux.conf'
 alias ez='vim ~/.zshrc'
+alias gem='rbenv exec gem'
+alias irb='rbenv exec irb'
+alias rails='rbenv exec rails'
+alias rake='rbenv exec bundle exec rake'
+alias rspec='rbenv exec bundle exec rspec'
+alias cap='rbenv exec bundle exec cap'
+alias foreman='rbenv exec bundle exec foreman'
+alias puma='rbenv exec bundle exec puma'
 
 export JAVA_HOME="$HOME/Apps/android-studio/jre"
 export ANDROID_HOME="$HOME/Android/Sdk"
